@@ -1,0 +1,30 @@
+# Runtime output
+*.log
+*.bak
+*.bak-*
+*.tmp
+*.swp
+__pycache__/
+
+# Local evidence and machine state
+screenshots/
+evidence/
+*.png
+*.jpg
+*.jpeg
+*.reg
+*.xml
+*.vmdk
+*.vmx
+*.vmxf
+*.vmsd
+*.nvram
+*.scoreboard
+
+# Secrets and local configuration
+.env
+.env.*
+credentials*
+secrets*
+guard-manifest.json
+hosts.snapshot

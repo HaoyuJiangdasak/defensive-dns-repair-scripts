@@ -1,0 +1,16 @@
+$TTL 1D
+@   IN  SOA dns.long90.cn. root.long90.cn. (
+        2026101501 ; serial
+        1D
+        1H
+        1W
+        3H
+)
+@       IN  NS      dns.long90.cn.
+@       IN  MX 10   mail.long90.cn.
+dns     IN  A       192.168.72.11
+mail    IN  A       192.168.72.12
+slave   IN  A       192.168.72.13
+www     IN  A       192.168.72.14
+ftp     IN  A       192.168.72.15
+web     IN  CNAME   www.long90.cn.
